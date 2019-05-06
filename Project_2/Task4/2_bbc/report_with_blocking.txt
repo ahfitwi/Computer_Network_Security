@@ -1,0 +1,21 @@
+www.bbc.com:19 Time:2018-03-23 02:09:04.924
+1.www.bbc.com
+2.static.bbci.co.uk
+3.static.bbc.co.uk
+4.nav.files.bbci.co.uk
+5.mybbc.files.bbci.co.uk
+6.ichef.bbci.co.uk
+7.fig.bbc.co.uk
+8.ssc.api.bbc.com
+9.secure-us.imrworldwide.com
+10.me-cdn.effectivemeasure.net
+11.tags.crwdcntrl.net
+12.s.effectivemeasure.net
+13.www.bbc.co.uk
+14.b.scorecardresearch.com
+15.fls-na.amazon.com
+16.ade.googlesyndication.com
+17.www.amazon.com
+18.tps10237.doubleverify.com
+19.pagead2.googlesyndication.com
+

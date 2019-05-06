@@ -1,0 +1,15 @@
+2018-03-22 22:47:49.220 Client IP: 127.0.0.1    request is    www.cnn.com. IN A
+2018-03-22 22:47:49.259 Client IP: 127.0.0.1    request is    www.cnn.com. IN AAAA
+2018-03-22 22:47:49.279 Client IP: 127.0.0.1    request is    www.cnn.com. IN A
+2018-03-22 22:47:49.521 Client IP: 127.0.0.1    request is    cdn.optimizely.com. IN A
+2018-03-22 22:47:49.625 Client IP: 127.0.0.1    request is    cdn.optimizely.com. IN AAAA
+2018-03-22 22:47:49.659 Client IP: 127.0.0.1    request is    cdn.optimizely.com. IN A
+2018-03-22 22:47:49.712 Client IP: 127.0.0.1    request is    cdn.cnn.com. IN A
+2018-03-22 22:47:49.751 Client IP: 127.0.0.1    request is    cdn.cnn.com. IN AAAA
+2018-03-22 22:47:49.797 Client IP: 127.0.0.1    request is    cdn.cnn.com. IN A
+2018-03-22 22:47:49.838 Client IP: 127.0.0.1    request is    native.sharethrough.com. IN A
+2018-03-22 22:47:49.891 Client IP: 127.0.0.1    request is    native.sharethrough.com. IN AAAA
+2018-03-22 22:47:49.918 Client IP: 127.0.0.1    request is    native.sharethrough.com. IN A
+2018-03-22 22:47:49.972 Client IP: 127.0.0.1    request is    static.chartbeat.com. IN A
+2018-03-22 22:47:49.987 Client IP: 127.0.0.1    request is    static.chartbeat.com. IN AAAA
+2018-03-22 22:47:50.022 Client IP: 127.0.0.1    request is    static.chartbeat.com. IN A

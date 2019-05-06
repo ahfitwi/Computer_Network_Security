@@ -1,0 +1,147 @@
+#==============================================================================
+#==============================================================================
+Task_1: 
+#============
+    Goal: pull out dns info of visited pages from dnslog.txt
+          (For this task, I used your dnslog.txt as input to my program)
+#------------------------------------------------------------------------------
+Deliverables:
+    1) Human readable report of distinct visited pages,
+    2) Unique DNS names observed, and
+    3) the time at which the first requested page was visited.
+#------------------------------------------------------------------------------
+Folder name: 
+           dnsproject 
+#------------------------------------------------------------------------------
+Notes:
+    1) dns2proxy was modified on line 92 of the current or line 89 of the one
+       you provided us to support milisecond. That is, .%f was added to handle
+       the miliseconds, and [-3] was added to limit the decimal places to 3.
+    2) The following files are included in the dnsproject folder
+        dnsproject.py  (the program I wrote, it is simple OOP based)      
+        dns2proxy.py (the one modified for task_1 purpose)
+        report.txt (the outpurt of my program, dnsproject.py)
+        dnslog.txt (I used the one you provided us with for this task)
+#==============================================================================
+#==============================================================================
+Task_2: 
+#============
+    Goal:Show how to configure the dns2proxy and spoof.cfg to block some sites.               
+#------------------------------------------------------------------------------
+Deliverables:
+    1) dnslog.txt (contains sites with spoofed and genuine IP addresses)
+    2) configured spoof.cfg
+#------------------------------------------------------------------------------
+Folder name: 
+           dns2proxy
+#------------------------------------------------------------------------------
+Notes:
+    1) The point here is to show how fake IP Addresses could be affixed
+       to sites we want to block.
+    2) the website I used for this task is "www.cnn.com"
+    3) The sites to be blocked are (check on spoof.cfg)
+               ocsp.comodoca.com 10.10.10.10
+               www.i.cdn.cnn.com 172.30.30.30
+    4) The following files are included in the dns2proxy folder
+        dns2proxy.py (the one modified for task_2 purpose)
+        dnslog.txt (log of sites with both fake and genuine IP)
+        all configuration files you provided us with some edited
+    5) dns2proxy.py was modified on line 92 as to support miliseconds
+    6) dns2proxy.py was also modified as to support blocking (lines 358-377, 
+        and lines 544-557)
+#==============================================================================
+#==============================================================================
+Task_3: 
+#============
+    Goal: Write only the unblocked dns requests to the  dnslog.txt  
+          (without ocsp.comodoca.com and www.i.cdn.cnn.com, in my case)             
+#------------------------------------------------------------------------------
+Deliverables:
+    1) dnslog.txt (contining only those dns requests which weren't blocked)
+#------------------------------------------------------------------------------
+Folder name: 
+           Task3
+#------------------------------------------------------------------------------
+Notes:
+    1) dns2proxy was modified on line 92 as to support milisecond
+    2) The way dnslog files is exported was modified, check lines 358 to 360
+    3) DNS block was added between lines 540 and 553 
+    4) The "save_req()" was commented on line 643 (line 623 on  original one)
+    5) The same spoof.cfg file of task_2 is employed to block the sites
+         Site visited: www.cnn.com
+         Blocked sites:
+               ocsp.comodoca.com 10.10.10.10
+               www.i.cdn.cnn.com 172.30.30.30
+    6)The following files are included in the task3 folder        
+        dns2proxy.py (the one modified for task_3 purpose)        
+        dnslog.txt (excludes blocked sites)
+#==============================================================================
+#==============================================================================
+Task_4: 
+#============
+    Goal: Research, select six sites, and block some DNS requests             
+#------------------------------------------------------------------------------
+Deliverables:
+    1) dnslog.txt for each of the six selected sites
+    2) report.txt for each site
+    3) dnslog_with_blocking.txt for each: doesn't contain blocked sistes
+    4) report_with_blocking.txt for each site
+    5) separate spoof.cfg for each: contains two blocked sistes
+#------------------------------------------------------------------------------
+Folder name: 
+   Task4 (subfolders: 1_amazon, 2_bbc, 3_goal, 4_cnn, 5_bloomberg, & 6_ebay)
+#------------------------------------------------------------------------------
+Notes:
+    1) Sites visited and the ones blocked using fake IP addresses are:
+                    www.amazon.com
+                              ads.yahoo.com 10.1.1.1 (blocked)
+                              trc.taboola.com 172.16.1.1 (blocked)
+                    www.bbc.com
+                              ad.crwdcntrl.net 10.2.2.2 (blocked)
+                              ocsp.digicert.com 172.16.2.2 (blocked)
+                    www.goal.com
+                              ads.yieldmo.com 10.3.3.3 (blocked)
+                              track.eyeviewads.com 172.16.3.3 (blocked)
+                    www.cnn.com
+                              ads.rubiconproject.com 10.4.4.4
+                              tr.outbrain.com 172.16.4.4
+                    www.bloomberg.com
+                              ads.pubmatic.com 10.5.5.5
+                              trc.taboola.com 172.16.5.5
+                    www.ebay.com 
+                              ads.ebay.com 10.6.6.6
+                              tracking.m6r.eu 172.16.6.6   
+    2) This task is similart to task_3                      
+    3) The following files are included in the Task4 folder
+        1_amazon, 2_bbc, 3_goal, 4_cnn, 5_bloomberg, & 6_ebay
+        Each subfolder contains:
+                dnsproject.py (modified output file name)
+                dns2proxy.py (modified as to fit this task)
+                dnslog.txt (of each site with no blocking)
+                report.txt (generated from dnslog.txt)
+                dnslog_with_blocking.txt (excludes blocked sistes)
+                report_with_blocking.txt (from dnslog_with_blocking.txt)
+                spoof.cfg
+#==============================================================================
+#==============================================================================
+Task_5: 
+#============
+    Goal: generate dnslog.txt file with resolved IP Addresses added to sites              
+#------------------------------------------------------------------------------
+Deliverables:
+    1) dnslog.txt:contains sites and IP Addresses into which they are resolved    
+#------------------------------------------------------------------------------
+Folder name: 
+           Task5 
+#------------------------------------------------------------------------------
+Notes:           
+    1) Appropriate changes were made on the dns2proxy.py file
+        line 92: to handle the milisecond in the in the time format
+        line 358: save_requ() was commented
+        lines 377-382: resolved IP is added to the log file.
+    2)  The following files are included in the Task5 folder        
+        dns2proxy.py (the modified one)        
+        dnslog.txt (the one generated using the modified dns2proxy.py)
+#==============================================================================
+                       #End of File
+#==============================================================================

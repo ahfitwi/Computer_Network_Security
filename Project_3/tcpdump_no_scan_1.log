@@ -1,0 +1,213 @@
+16:27:35.506829 IP6 loca16:27:38.632695 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): REFRESH(8); REQUEST; UNICAST
+16:27:40.132664 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): REFRESH(8); REQUEST; UNICAST
+16:27:41.632725 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): REFRESH(8); REQUEST; UNICAST
+16:27:50.949510 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:52.395074 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:52.949659 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:53.949961 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:55.395571 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:55.950009 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:56.950172 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:58.396048 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:58.950568 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:27:59.950670 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:01.395975 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:01.950619 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:02.950652 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:04.396228 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:04.950636 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:05.950696 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:07.396290 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:07.947388 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:08.947409 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:10.396681 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:10.947355 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:11.947590 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:13.397344 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:13.947970 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:14.948004 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:16.397282 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:16.948041 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:17.948124 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:28:28.167931 IP 192.168.184.129.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:28.167955 IP 192.168.184.129.netbios-dgm > 192.168.184.255.netbios-dgm: NBT UDP PACKET(138)
+16:28:28.168596 IP 192.168.184.1.netbios-ns > 192.168.184.129.netbios-ns: NBT UDP PACKET(137): QUERY; POSITIVE; RESPONSE; UNICAST
+16:28:32.949087 ARP, Request who-has 192.168.184.129 (00:0c:29:29:8f:f2 (oui Unknown)) tell 192.168.184.1, length 46
+16:28:32.949547 ARP, Reply 192.168.184.129 is-at 00:0c:29:29:8f:f2 (oui Unknown), length 46
+16:28:47.703562 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [S], seq 4282364626, win 16384, options [mss 1460,nop,nop,sackOK], length 0
+16:28:47.703915 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [S.], seq 920663586, ack 4282364627, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+16:28:47.704228 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 1:73, ack 1, win 17520, length 72 NBT Session Packet: Session Request
+16:28:47.704402 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 1:5, ack 73, win 65320, length 4 NBT Session Packet: Session Granted
+16:28:47.704795 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 73:210, ack 5, win 17516, length 137 NBT Session Packet: Session Message
+16:28:47.705519 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 5:414, ack 210, win 65183, length 409 NBT Session Packet: Session Message
+16:28:47.706362 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 210:436, ack 414, win 17107, length 226 NBT Session Packet: Session Message
+16:28:47.706856 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 414:836, ack 436, win 64957, length 422 NBT Session Packet: Session Message
+16:28:47.712884 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 436:690, ack 836, win 16685, length 254 NBT Session Packet: Session Message
+16:28:47.713768 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 836:996, ack 690, win 65392, length 160 NBT Session Packet: Session Message
+16:28:47.714596 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 690:790, ack 996, win 16525, length 100 NBT Session Packet: Session Message
+16:28:47.714811 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 996:1056, ack 790, win 65292, length 60 NBT Session Packet: Session Message
+16:28:47.715580 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 790:908, ack 1056, win 16465, length 118 NBT Session Packet: Session Message
+16:28:47.717113 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 1056:1124, ack 908, win 65174, length 68 NBT Session Packet: Session Message
+16:28:47.717853 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 908:951, ack 1124, win 16397, length 43 NBT Session Packet: Session Message
+16:28:47.717981 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 1124:1167, ack 951, win 65131, length 43 NBT Session Packet: Session Message
+16:28:47.719168 IP 192.168.184.132.netbios-dgm > 192.168.184.255.netbios-dgm: NBT UDP PACKET(138)
+16:28:47.719727 ARP, Request who-has 192.168.184.2 tell 192.168.184.132, length 46
+16:28:47.719735 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [P.], seq 951:990, ack 1167, win 16354, length 39 NBT Session Packet: Session Message
+16:28:47.719834 IP 192.168.184.1.netbios-dgm > 192.168.184.132.netbios-dgm: NBT UDP PACKET(138)
+16:28:47.719881 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [P.], seq 1167:1206, ack 990, win 65092, length 39 NBT Session Packet: Session Message
+16:28:47.720258 ARP, Reply 192.168.184.2 is-at 00:50:56:f0:ee:67 (oui Unknown), length 46
+16:28:47.720470 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+16:28:47.720621 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [F.], seq 990, ack 1206, win 16315, length 0
+16:28:47.720757 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1033: Flags [F.], seq 1206, ack 991, win 65092, length 0
+16:28:47.720958 IP 192.168.184.132.1033 > 192.168.184.1.netbios-ssn: Flags [.], ack 1207, win 16315, length 0
+16:28:49.207692 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+16:28:50.707671 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+16:28:52.238060 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:52.989016 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:53.738982 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:54.490348 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [S], seq 4283950796, win 16384, options [mss 1460,nop,nop,sackOK], length 0
+16:28:54.490647 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [S.], seq 1793720319, ack 4283950797, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+16:28:54.491032 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 1:73, ack 1, win 17520, length 72 NBT Session Packet: Session Request
+16:28:54.491217 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 1:5, ack 73, win 65320, length 4 NBT Session Packet: Session Granted
+16:28:54.491669 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 73:210, ack 5, win 17516, length 137 NBT Session Packet: Session Message
+16:28:54.492246 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 5:414, ack 210, win 65183, length 409 NBT Session Packet: Session Message
+16:28:54.493018 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 210:436, ack 414, win 17107, length 226 NBT Session Packet: Session Message
+16:28:54.493524 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 414:836, ack 436, win 64957, length 422 NBT Session Packet: Session Message
+16:28:54.493995 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 436:690, ack 836, win 16685, length 254 NBT Session Packet: Session Message
+16:28:54.494660 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 836:996, ack 690, win 65392, length 160 NBT Session Packet: Session Message
+16:28:54.495343 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 690:790, ack 996, win 16525, length 100 NBT Session Packet: Session Message
+16:28:54.495563 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 996:1056, ack 790, win 65292, length 60 NBT Session Packet: Session Message
+16:28:54.495950 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 790:908, ack 1056, win 16465, length 118 NBT Session Packet: Session Message
+16:28:54.496946 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 1056:1124, ack 908, win 65174, length 68 NBT Session Packet: Session Message
+16:28:54.497396 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 908:951, ack 1124, win 16397, length 43 NBT Session Packet: Session Message
+16:28:54.497561 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 1124:1167, ack 951, win 65131, length 43 NBT Session Packet: Session Message
+16:28:54.498207 IP 192.168.184.132.netbios-dgm > 192.168.184.255.netbios-dgm: NBT UDP PACKET(138)
+16:28:54.498532 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:54.498772 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [P.], seq 951:990, ack 1167, win 16354, length 39 NBT Session Packet: Session Message
+16:28:54.498834 IP 192.168.184.1.netbios-dgm > 192.168.184.132.netbios-dgm: NBT UDP PACKET(138)
+16:28:54.499233 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [P.], seq 1167:1206, ack 990, win 65092, length 39 NBT Session Packet: Session Message
+16:28:54.499686 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [F.], seq 990, ack 1206, win 16315, length 0
+16:28:54.499858 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1034: Flags [F.], seq 1206, ack 991, win 65092, length 0
+16:28:54.500174 IP 192.168.184.132.1034 > 192.168.184.1.netbios-ssn: Flags [.], ack 1207, win 16315, length 0
+16:28:55.239231 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:55.989284 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:56.761146 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [S], seq 4284520591, win 16384, options [mss 1460,nop,nop,sackOK], length 0
+16:28:56.761443 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [S.], seq 3444496130, ack 4284520592, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+16:28:56.761843 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 1:73, ack 1, win 17520, length 72 NBT Session Packet: Session Request
+16:28:56.762024 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 1:5, ack 73, win 65320, length 4 NBT Session Packet: Session Granted
+16:28:56.762576 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 73:210, ack 5, win 17516, length 137 NBT Session Packet: Session Message
+16:28:56.763253 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 5:414, ack 210, win 65183, length 409 NBT Session Packet: Session Message
+16:28:56.763953 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 210:436, ack 414, win 17107, length 226 NBT Session Packet: Session Message
+16:28:56.764565 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 414:836, ack 436, win 64957, length 422 NBT Session Packet: Session Message
+16:28:56.765056 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 436:690, ack 836, win 16685, length 254 NBT Session Packet: Session Message
+16:28:56.765746 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 836:996, ack 690, win 65392, length 160 NBT Session Packet: Session Message
+16:28:56.766472 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 690:790, ack 996, win 16525, length 100 NBT Session Packet: Session Message
+16:28:56.766630 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 996:1056, ack 790, win 65292, length 60 NBT Session Packet: Session Message
+16:28:56.767091 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 790:922, ack 1056, win 16465, length 132 NBT Session Packet: Session Message
+16:28:56.767886 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 1056:1124, ack 922, win 65160, length 68 NBT Session Packet: Session Message
+16:28:56.768272 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 922:965, ack 1124, win 16397, length 43 NBT Session Packet: Session Message
+16:28:56.768457 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 1124:1167, ack 965, win 65117, length 43 NBT Session Packet: Session Message
+16:28:56.768854 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [P.], seq 965:1004, ack 1167, win 16354, length 39 NBT Session Packet: Session Message
+16:28:56.768949 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [P.], seq 1167:1206, ack 1004, win 65078, length 39 NBT Session Packet: Session Message
+16:28:56.769361 IP 192.168.184.132.netbios-dgm > 192.168.184.255.netbios-dgm: NBT UDP PACKET(138)
+16:28:56.769882 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:56.770143 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [F.], seq 1004, ack 1206, win 16315, length 0
+16:28:56.770585 IP 192.168.184.1.netbios-dgm > 192.168.184.132.netbios-dgm: NBT UDP PACKET(138)
+16:28:56.770610 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1035: Flags [F.], seq 1206, ack 1005, win 65078, length 0
+16:28:56.771103 IP 192.168.184.132.1035 > 192.168.184.1.netbios-ssn: Flags [.], ack 1207, win 16315, length 0
+16:28:57.520675 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:58.270555 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:59.021068 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [S], seq 4285069701, win 16384, options [mss 1460,nop,nop,sackOK], length 0
+16:28:59.021375 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [S.], seq 3120649026, ack 4285069702, win 8192, options [mss 1460,nop,nop,sackOK], length 0
+16:28:59.021733 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 1:73, ack 1, win 17520, length 72 NBT Session Packet: Session Request
+16:28:59.021920 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 1:5, ack 73, win 65320, length 4 NBT Session Packet: Session Granted
+16:28:59.022371 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 73:210, ack 5, win 17516, length 137 NBT Session Packet: Session Message
+16:28:59.022934 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 5:414, ack 210, win 65183, length 409 NBT Session Packet: Session Message
+16:28:59.023626 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 210:436, ack 414, win 17107, length 226 NBT Session Packet: Session Message
+16:28:59.024173 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 414:836, ack 436, win 64957, length 422 NBT Session Packet: Session Message
+16:28:59.024676 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 436:690, ack 836, win 16685, length 254 NBT Session Packet: Session Message
+16:28:59.025488 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 836:996, ack 690, win 65392, length 160 NBT Session Packet: Session Message
+16:28:59.026562 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 690:790, ack 996, win 16525, length 100 NBT Session Packet: Session Message
+16:28:59.026848 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 996:1056, ack 790, win 65292, length 60 NBT Session Packet: Session Message
+16:28:59.027322 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 790:922, ack 1056, win 16465, length 132 NBT Session Packet: Session Message
+16:28:59.028111 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 1056:1124, ack 922, win 65160, length 68 NBT Session Packet: Session Message
+16:28:59.028646 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 922:965, ack 1124, win 16397, length 43 NBT Session Packet: Session Message
+16:28:59.028820 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 1124:1167, ack 965, win 65117, length 43 NBT Session Packet: Session Message
+16:28:59.029243 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [P.], seq 965:1004, ack 1167, win 16354, length 39 NBT Session Packet: Session Message
+16:28:59.029374 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [P.], seq 1167:1206, ack 1004, win 65078, length 39 NBT Session Packet: Session Message
+16:28:59.029869 IP 192.168.184.132.netbios-dgm > 192.168.184.255.netbios-dgm: NBT UDP PACKET(138)
+16:28:59.030284 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:28:59.030535 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [F.], seq 1004, ack 1206, win 16315, length 0
+16:28:59.030668 IP 192.168.184.1.netbios-dgm > 192.168.184.132.netbios-dgm: NBT UDP PACKET(138)
+16:28:59.030749 IP 192.168.184.1.netbios-ssn > 192.168.184.132.1036: Flags [F.], seq 1206, ack 1005, win 65078, length 0
+16:28:59.030952 IP 192.168.184.132.1036 > 192.168.184.1.netbios-ssn: Flags [.], ack 1207, win 16315, length 0
+16:28:59.770673 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:29:00.520644 IP 192.168.184.132.netbios-ns > 192.168.184.255.netbios-ns: NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+16:29:38.631560 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): REFRESH(8); REQUEST; UNICAST
+16:29:40.131640 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): REFRESH(8); REQUEST; UNICAST
+16:29:41.631719 IP 192.168.184.132.netbios-ns > 192.168.184.2.netbios-ns: NBT UDP PACKET(137): REFRESH(8); REQUEST; UNICAST
+16:29:50.948307 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:52.397709 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:52.948493 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:53.948571 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:55.397970 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:55.948497 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:56.948668 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:58.397911 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:58.948713 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:29:59.948657 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:01.398145 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:01.948820 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:02.948892 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:04.398336 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:04.948931 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:05.948943 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:07.398295 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:07.949038 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:08.515245 IP 192.168.184.1.netbios-dgm > 192.168.184.255.netbios-dgm: NBT UDP PACKET(138)
+16:30:08.949092 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:10.398494 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:10.949117 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:11.949346 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:13.398756 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:13.949240 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:14.949327 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:16.398766 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:16.949356 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:17.949525 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:50.900984 IP 192.168.184.1.bootpc > 192.168.184.254.bootps: BOOTP/DHCP, Request from 00:50:56:c0:00:08 (oui Unknown), length 315
+16:30:50.901076 IP 192.168.184.254.bootps > 192.168.184.1.bootpc: BOOTP/DHCP, Reply, length 300
+16:30:50.904394 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:50.906185 IP6 fe80::e120:8667:1991:5ecf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+16:30:50.906360 IP 192.168.184.1 > 224.0.0.22: igmp v3 report, 1 group record(s)
+16:30:50.915085 IP6 fe80::e120:8667:1991:5ecf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+16:30:50.915427 IP 192.168.184.1 > 224.0.0.22: igmp v3 report, 1 group record(s)
+16:30:50.915883 IP6 fe80::e120:8667:1991:5ecf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+16:30:50.916111 IP 192.168.184.1 > 224.0.0.22: igmp v3 report, 1 group record(s)
+16:30:50.918515 IP6 fe80::e120:8667:1991:5ecf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+16:30:50.918622 IP 192.168.184.1 > 224.0.0.22: igmp v3 report, 1 group record(s)
+16:30:50.920108 IP6 fe80::e120:8667:1991:5ecf.60340 > ff02::1:3.hostmon: UDP, length 33
+16:30:50.920313 IP 192.168.184.1.60340 > 224.0.0.252.hostmon: UDP, length 33
+16:30:50.950590 IP 192.168.184.1 > 224.0.0.22: igmp v3 report, 1 group record(s)
+16:30:50.950688 IP6 fe80::e120:8667:1991:5ecf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+16:30:51.329868 IP6 fe80::e120:8667:1991:5ecf.60340 > ff02::1:3.hostmon: UDP, length 33
+16:30:51.329980 IP 192.168.184.1.60340 > 224.0.0.252.hostmon: UDP, length 33
+16:30:51.450668 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:52.450704 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:53.904191 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:54.450790 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:55.450908 ARP, Request who-has 192.168.184.254 (00:50:56:e1:b1:04 (oui Unknown)) tell 192.168.184.1, length 46
+16:30:55.450928 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:55.451116 ARP, Reply 192.168.184.254 is-at 00:50:56:e1:b1:04 (oui Unknown), length 46
+16:30:56.904288 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:57.450946 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:58.450953 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:30:59.904404 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:00.447174 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:01.447231 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:02.908508 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:03.447367 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:04.447382 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:05.908438 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+16:31:06.447418 ARP, Request who-has 192.168.184.2 tell 192.168.184.1, length 46
+

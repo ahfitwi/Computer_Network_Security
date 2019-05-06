@@ -22,3 +22,17 @@ Write a python program that does the following
 """
 
 #============================================================================
+
+
+#============================================================================
+
+"""
+Project 3: Network Scan Detection
+Terse Project Description
+Write a python program that does the following
+1) Capture network traffics on the monitoring linux machine using tcpdum
+      tcpdum -i any -Q in> tcpdump_no_scan_xx.log (xx=-sS, -sV, etc)
+2) Analyze traffics to Detect if there exists any scanning activity on the ntk
+"""
+
+#============================================================================

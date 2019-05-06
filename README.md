@@ -2,6 +2,7 @@
 #==============================================================================
 
 Project_1: Terse Description:
+
 Develop a python program that does the following:
 1) Read in a text named "text.txt", a long book titled "War and Peace"
 2) Print total number of words and sentences onto screen.
@@ -27,8 +28,7 @@ Write a python program that does the following
 #============================================================================
 
 """
-Project 3: Network Scan Detection
-Terse Project Description
+Project 3: Terse Project Description (Network Scan Detection)
 Write a python program that does the following
 1) Capture network traffics on the monitoring linux machine using tcpdum
       tcpdum -i any -Q in> tcpdump_no_scan_xx.log (xx=-sS, -sV, etc)
